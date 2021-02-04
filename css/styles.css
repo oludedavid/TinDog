@@ -1,0 +1,217 @@
+body{
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat-Black, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
+
+h2{
+    font-family: " Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;  
+}
+
+h3{
+    font-family: "montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar{
+    padding:0 0  4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.navbar-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"montserrat-Light" ;
+}
+
+/* buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.Iphone6{
+    transform: rotate(25deg);
+    width:60%;
+}
+
+/* THE FEATURES SECTION: Second Section of our website; adding icons and formating paragraphs */
+
+.fas{
+    color: #ef8172;
+}
+
+.second-feature{
+    color: #8f8f8f;
+}
+
+.fas:hover{
+   color: #ff4c68;
+}
+.pussy-cat{
+    text-align: center;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#features{
+    padding: 7% 15%;
+    
+}
+
+/* Intermediate Bootstrap: the testimonial section */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding:7% 15% ;
+}
+
+/* press section */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3% ;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CSS Z-index and stacking order */
+#features{
+    background-color: white;
+    position: relative;
+    Z-index:1;
+}
+
+.Iphone6{
+    position: absolute;
+    right:30%;
+}
+.phone-image{
+    position: relative;
+
+}
+/* RESPONSIVENESS: Media query */
+@media (max-width:1028px){
+  #title{
+      text-align: center;
+  }
+
+
+    .Iphone6{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* call to action */
+#cta{
+    background-color:#ff4c68 ;
+    color: white;
+    text-align: center;
+    padding: 3% 15% 7%;
+}
+
+.action{
+    margin-bottom:3% ;
+    padding: 4%;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.action-button{
+    margin:  5% 3% 5% 0;
+
+}
+
+/* footer */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
